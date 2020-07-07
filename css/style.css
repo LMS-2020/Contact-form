@@ -30,13 +30,14 @@ section .container
   min-height: 540px;
   display: flex;
   z-index: 1000;
+  overflow: hidden;
 }
 section .container .contactinfo
 {
   position: absolute;
-  top: 40px;
+  top: 18px;
   width: 350px;
-  height: calc(100% - 80px);
+  height: calc(100% - 130px);
   background: #0f3959;
   z-index: 1;
   padding: 40px;
@@ -93,6 +94,7 @@ section .container .contactinfo .sci
 {
 position: relative;
 display: flex;
+margin-top: 100px !important;
 }
 section .container .contactinfo .sci li
 {
