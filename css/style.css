@@ -12,6 +12,7 @@ section
   display: flex;
   min-height: 100vh;
   background: #112d42;
+  overflow:hidden;
 }
 section::before
 {
